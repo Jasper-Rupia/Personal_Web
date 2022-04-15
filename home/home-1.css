@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    font-family: cursive, Arial;
+    box-sizing: border-box;
+}
+
+html{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("../images/home-1/28.jpg") center fixed;
+    background-size: cover;
+}
+
+.nav-bar{
+	width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#logo{
+    width: 60px;
+}
+
+.nav{
+    padding-left: 60px;
+}
+
+.nav .ul li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.nav .ul li a{
+    text-decoration: none;
+    color: rgb(247, 244, 244);
+    font-size: large;
+    padding: 2px 10px;
+    border-radius: 8px;
+}
+
+.nav .ul li a:hover{
+    background-color: blanchedalmond;
+    color: rgb(12, 11, 11);
+}
+
+.content{
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+.content h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #2a54af;
+}
+
+.content p{
+    font-size: 30px;
+    filter: invert();
+    text-shadow: 10px 5px 20px rgb(19, 12, 12);
+}
+
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(24, 32, 36);
+}
+
